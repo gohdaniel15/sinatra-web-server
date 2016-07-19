@@ -12,6 +12,7 @@ gem 'thin'
 
 # Adding Sass
 gem 'sass'
+gem 'sprockets'
 
 # Adding ActiveRecord and Database Components
 gem 'activerecord'
