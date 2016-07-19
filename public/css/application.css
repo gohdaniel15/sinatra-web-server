@@ -14,12 +14,12 @@
 
 .screen {
   width: 82%;
-  height: 26%;
-  position: fixed;
-  margin-top: 30px;
-  margin-left: 30px;
+  height: 43%;
+  position: relative;
+  top: 7%;
+  margin-left: 7%;
   border-radius: 20px;
   overflow-x: hidden;
-  overflow-y: scroll;
+  overflow-y: auto;
   text-align: center;
 }
