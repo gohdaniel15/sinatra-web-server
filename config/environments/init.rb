@@ -8,7 +8,6 @@ require 'rubygems'
 require 'bundler/setup' if File.exist?(ENV['BUNDLE_GEMFILE'])
 require 'pathname'
 require 'sass'
-require 'sprockets'
 
   # database
 require 'pg'
