@@ -10,7 +10,7 @@ gem 'sinatra-contrib'
 # Adding thin gem as advised
 gem 'thin'
 
-# Adding Sass and Sprockets
+# Adding Sass
 gem 'sass'
 
 # Adding ActiveRecord and Database Components
