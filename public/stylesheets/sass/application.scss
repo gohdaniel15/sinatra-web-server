@@ -29,12 +29,25 @@ hr.style1{
   }
 }
 
-.projectButton:hover {
+.subsequentButton {
+  margin-top: 0;
+  padding-top: 20;
+}
+
+.subsequentButton h1 {
+  margin-top: 0;
+}
+
+.subsquentHr {
+  margin-bottom: 0;
+}
+
+.headerButton:hover {
   background-color: #2D2D2D;
   color: #ADADAD;
 }
 
-.projectsPage {
+.hidePage {
   display: none;
 }
 
@@ -51,21 +64,21 @@ hr.style1{
   margin-right: auto;
   margin-top: 1em;
   width: 90%;
-  height: 27em;
+  height: 30em;
   @media(min-width:34em){
     width: 40%;
   }
 }
 
 .projectImage img {
-  height: 9em;
-  width: 16em;
+  height: 12em;
+  width: 21em;
   margin-left: auto;
   display: block;
   margin-right: auto;
   margin-top: 1em;
   border: 2px solid white;
-  border-radius: 20px;
+  border-radius: 5px;
 }
 
 .projectName {
@@ -95,6 +108,40 @@ hr.style1{
   text-align: center;
   font-family: 'Cabin';
 }
+
+.jumbotron {
+  background-image: url('/img/profilepic.jpg');
+  background-repeat: no-repeat;
+  background-size: cover;
+  height: 30em;
+  background-position-x: -10em;
+  max-width: 60em;
+  margin-left: auto;
+  margin-right: auto;
+  @media(min-width:34em){
+    background-position-y: -5em;
+    background-position-x: 0;
+  }
+}
+
+.aboutDescription p {
+  color: #2D2D2D;
+}
+
+.table {
+  display: table;
+  width:100%;
+}
+
+.tableRow {
+  display: table-row;
+}
+
+.tableCell {
+  display: table-cell;
+  padding: 3px 10px;
+}
+
 
 @media(min-width:48em){}
 @media(min-width:62em){}
