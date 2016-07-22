@@ -5,4 +5,7 @@ $(document).ready(function() {
   $('#aboutToggle').click(function() {
     $('.aboutPage').slideToggle('slow');
   });
+  $('#contactToggle').click(function() {
+    $('.contactPage').slideToggle('slow');
+  });
 });
